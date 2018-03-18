@@ -115,10 +115,13 @@ if ('serviceWorker' in navigator) {
 	    navigator.serviceWorker.register('../sw.js').then(function(registration) {
 	      // Registration was successful
 	      console.log('Service Worker registration was successful with scope: ', registration.scope);
-	    }, function(error) {
-	      console.log('ServiceWorker registration failed: ', error);
+	    }, function(err) {
+	      // registration failed :(
+	      console.log('ServiceWorker registration failed: ', err);
 	    });
 	  });
 }
+  
+ 
   
 });

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Stardos+Stencil|Montserrat');
+
+p{
+  font-family:Pacifico;
+  color:white;
+}
+body{
+  background-color:#FF9C5F;
+  margin:0 auto;
+  user-select:none;
+  -ms-user-select:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  direction:ltr;
+}
+
+#main{
+  border:1px solid #253939;
+  width:350px;
+  height:450px;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px; 
+  background:#253939;
+  margin:50px 500px 10px 500px;
+  text-align:center;  
+  box-shadow: 5px 5px 0 #253939;
+}
+
+#screen{
+  border:1px solid black;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  height:60px;
+  margin:0 25px 0 25px;
+  padding:5px 5px 10px 5px;
+  background-color:#5FA292;
+  text-align:right;
+  color:black;
+  font-family:Stardos Stencil;
+  font-size:15px;
+  cursor:pointer;
+}
+
+#info-box{
+  font-size: 30px;
+  display:block;
+}
+
+#info-box1{
+  font-size: 15px
+}
+
+div#buttonArea{
+ 
+  margin:30px 25px 0 25px;
+  width:300px;
+  height:auto;
+ 
+  
+}
+
+.smallbtn{
+  
+  height:50px;
+  width:25%;
+  /*border:1px solid transparent;*/
+
+  background-color:#558188;
+  color:#FF9C5F;
+  float:left;
+  text-align:center;
+  font-family:Montserrat;
+   font-size: 16px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  box-shadow: 0 10px 6px -6px #777;
+  
+}
+
+.zerobtn{
+  position:relative;
+  top:-50px;
+}
+.equalsbtn{
+  height:100px;
+  
+}
+.dot{
+  width:50%;
+  position:relative;
+  top:-50px;
+}
+
+.smallbtn:hover{
+  color:#558188;
+  text-decoration:none;
+  background:#FF9C5F;
+}
+
+.smallbtn:active{
+  /*box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;*/
+   box-shadow: inset 0 10px 6px -6px #777;
+
+}
+@media (max-width:1280px){
+  #main{
+    margin:0 auto;
+    margin-top:40px;
+  }
+}
+
+@media (max-width:500px){
+  
+  #main{
+    margin: 10px 5px 10px 5px;
+    width:300px;
+    height:450px;
+    
+  }
+  
+  div#buttonArea{
+ /*
+  margin:30px 25px 0 25px;*/
+  width:250px;
+  height:auto;
+ 
+  
+}
+  
+}
+
+
+
+
+
+
